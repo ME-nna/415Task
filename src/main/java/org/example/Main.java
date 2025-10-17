@@ -4,10 +4,9 @@ package org.example;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //test that everything is okaaay
         int x = 10;
         int y = 5;
-        int result = (x * y) + x + y + 2;
+        int result = (x * y) + x + y + 2
         System.out.println("--- Starting Calculation ---");
         System.out.println("Value of x: " + x);
         System.out.println("Value of y: " + y);
